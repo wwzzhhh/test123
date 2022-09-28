@@ -1,1 +1,132 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T03:03:44.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.3.7" etag="OG-A-DMtOxLmt39L1zXL" type="github"><diagram id="LfDvHI3QYnBFp2JPL4mf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-28T06:09:34.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Zbtw0j-MaGMqD5k3nMwX" version="20.3.7" type="github">
+  <diagram id="LfDvHI3QYnBFp2JPL4mf" name="第 1 页">
+    <mxGraphModel dx="3716" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-1" value="vendor.qti.camera.provider@2.7-service_64" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="270" width="280" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-3" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-WoQFK-7rZkO3tjdeYSU-1" target="-WoQFK-7rZkO3tjdeYSU-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-350" y="320" as="sourcePoint" />
+            <mxPoint x="-230" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-300" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-4" value="/vendor/lib64/hw/camera.qcom.so" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="130" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-5" value="/vendor/lib64/com.qti.feature2.generic.so" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="345" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-6" value="/vendor/etc/camera/camxoverridesettings.txt&lt;br&gt;/vendor/lib64/com.qti.sensormodule.sunny_imx766.bin" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="530" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-8" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-WoQFK-7rZkO3tjdeYSU-1" target="-WoQFK-7rZkO3tjdeYSU-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-350" y="320" as="sourcePoint" />
+            <mxPoint x="-110" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-9" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;rounded=0;entryX=0.005;entryY=0.56;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-WoQFK-7rZkO3tjdeYSU-1" target="-WoQFK-7rZkO3tjdeYSU-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-350" y="320" as="sourcePoint" />
+            <mxPoint x="-100" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-300" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-10" value="open" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-11" value="dlopen" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-12" value="android_dlopen_ext" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="150" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-21" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#e51400;strokeColor=#FF3333;strokeWidth=3;startArrow=none;" edge="1" parent="1" source="-WoQFK-7rZkO3tjdeYSU-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-380" y="380" as="sourcePoint" />
+            <mxPoint x="-130" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-260" y="270" />
+              <mxPoint x="-250" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-23" value="&lt;b style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#ff3333&quot;&gt;libdlopen_wrapper_64.so&lt;br&gt;会先调用内部的dlopen等函数，将原先要打开的so，修改为新地址的so&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="410" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-25" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#FF3333;strokeWidth=3;fontColor=#FF3333;exitX=1.007;exitY=0.928;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.015;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-WoQFK-7rZkO3tjdeYSU-1" target="-WoQFK-7rZkO3tjdeYSU-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-550" y="390" as="sourcePoint" />
+            <mxPoint x="-510" y="437" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-26" value="&lt;font style=&quot;&quot; color=&quot;#ff3333&quot;&gt;&lt;b&gt;/odm/my_vendor/&lt;/b&gt;&lt;/font&gt;&lt;font style=&quot;&quot; color=&quot;#33001a&quot;&gt;vendor/lib64/hw/camera.qcom.so&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="180" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-28" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#e51400;strokeColor=#FF3333;strokeWidth=3;startArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-WoQFK-7rZkO3tjdeYSU-23" target="-WoQFK-7rZkO3tjdeYSU-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-280" y="412.5" as="sourcePoint" />
+            <mxPoint x="-120" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-160" y="410" />
+              <mxPoint x="-210" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-29" value="&lt;b style=&quot;color: rgb(255, 51, 51); text-align: center;&quot;&gt;/odm/my_vendor&lt;/b&gt;&lt;b style=&quot;color: rgb(255, 51, 51); text-align: center;&quot;&gt;/&lt;/b&gt;vendor/lib64/com.qti.feature2.generic.so" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="397.5" width="340" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-30" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#e51400;strokeColor=#FF3333;strokeWidth=3;startArrow=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-WoQFK-7rZkO3tjdeYSU-23" target="-WoQFK-7rZkO3tjdeYSU-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-280" y="425" as="sourcePoint" />
+            <mxPoint x="-120" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-240" y="480" />
+              <mxPoint x="-240" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-31" value="&lt;b style=&quot;color: rgb(255, 51, 51); text-align: center;&quot;&gt;/odm/my_vendor&lt;/b&gt;&lt;b style=&quot;color: rgb(255, 51, 51); text-align: center;&quot;&gt;/&lt;/b&gt;vendor/etc/camera/camxoverridesettings.txt&lt;br&gt;&lt;b style=&quot;color: rgb(255, 51, 51); text-align: center;&quot;&gt;/odm/my_vendor&lt;/b&gt;&lt;b style=&quot;color: rgb(255, 51, 51); text-align: center;&quot;&gt;/&lt;/b&gt;/vendor/lib64/com.qti.sensormodule.sunny_imx766.bin" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="590" width="400" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-33" value="/vendor/lib64/libcamxcommonutils.so" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="300" y="345" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-35" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-WoQFK-7rZkO3tjdeYSU-5" target="-WoQFK-7rZkO3tjdeYSU-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-540" y="370" as="sourcePoint" />
+            <mxPoint x="-118.40000000000009" y="562.4000000000001" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-36" value="link" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-37" value="&lt;b style=&quot;color: rgb(255, 51, 51); text-align: center;&quot;&gt;/odm/my_vendor&lt;/b&gt;&lt;b style=&quot;color: rgb(255, 51, 51); text-align: center;&quot;&gt;/&lt;/b&gt;/vendor/lib64/libcamxcommonutils.so" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-38" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="-WoQFK-7rZkO3tjdeYSU-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="414.5" as="sourcePoint" />
+            <mxPoint x="340" y="414.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-40" value="&lt;font color=&quot;#ff3333&quot;&gt;export LD_PRELOAD=&lt;b style=&quot;&quot;&gt;libdlopen_wrapper_64.so&lt;/b&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#33001A;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="455" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-WoQFK-7rZkO3tjdeYSU-41" value="&lt;font color=&quot;#ff3333&quot;&gt;export LD_LIBRARY_PATH =&amp;nbsp;&lt;/font&gt;&lt;b style=&quot;color: rgb(255, 51, 51); text-align: center;&quot;&gt;/odm/my_vendor&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#33001A;" vertex="1" parent="1">
+          <mxGeometry x="210" y="450" width="270" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
